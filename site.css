@@ -1,0 +1,52 @@
+:root {
+  --backcol: #ffffff;
+}
+
+* {
+  font-family: 'Sora', sans-serif;
+}
+
+body {
+  background-color: var(--backcol);
+}
+
+.pickedText {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 700;
+  padding: 0 0.5rem;
+  text-align: center;
+}
+
+.colorPicker {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 4rem;
+  border-radius: 25px;
+  border: 1px solid #eee;
+}
+
+.picker {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.inputColor {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.colorCode {
+  width: 100px;
+  padding: 0.5rem;
+}
